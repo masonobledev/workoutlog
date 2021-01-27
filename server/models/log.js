@@ -18,5 +18,5 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.INTEGER
         }
     })
-    return Journal;
+    return Log;
 };
